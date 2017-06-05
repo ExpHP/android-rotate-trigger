@@ -4,9 +4,9 @@ Rotation on/off toggle for android
 
 ## lolwat?
 
-This is an *on/off application,* which toggles auto-rotation and then immediately quits without ever showing an interface. This makes it a suitable target for e.g. [Fingerprint Gestures](https://play.google.com/store/apps/details?id=com.superthomaslab.fingerprintgestures&hl=en)
+This is an **on/off application,** which toggles auto-rotation and then immediately quits without ever showing an interface. This makes it a suitable target for e.g. [Fingerprint Gestures](https://play.google.com/store/apps/details?id=com.superthomaslab.fingerprintgestures&hl=en)
 
-*There's no message.* (there's supposed to be but \*cough\*) Just try rotating your phone to test if it's active.
+**There's no message.** (there's supposed to be but \*cough\*) Just try rotating your phone to test if it's active.
 
 There are, of course, other applications already on Google Play which toggle auto-rotation and then quit, but all the ones I tried seemed to just be wrappers around this:
 
@@ -31,7 +31,7 @@ Settings.System.putInt(contentResolver, Settings.System.USER_ROTATION, rotation)
 Settings.System.putInt(contentResolver, Settings.System.ACCELEROMETER_ROTATION, 0);
 ```
 
-Which *locks the current orientation* when auto-rotate is disabled.  (there were a couple of apps I found which work this way, but both lived in the notification area and couldn't be triggered from Fingerprint Gestures).
+Which **locks the current orientation** when auto-rotate is disabled.  (there were a couple of apps I found which work this way, but both lived in the notification area and couldn't be triggered from Fingerprint Gestures).
 
 ## License
 
