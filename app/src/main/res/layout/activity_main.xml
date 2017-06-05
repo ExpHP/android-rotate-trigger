@@ -12,7 +12,15 @@
         android:layout_height="wrap_content"
         android:text="Do the thing"
         android:onClick="onButtonClick_toggle"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="14dp"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="96dp"
         />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You should not see this screen. You should very certainly never ever see this screen, and you are not currently reading this text.  This screen is merely an implementation detail of the rotation toggler, because all apps must have one."
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="16dp" />
 </android.support.constraint.ConstraintLayout>

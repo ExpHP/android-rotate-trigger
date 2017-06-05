@@ -21,8 +21,6 @@ public class MainActivity extends AppCompatActivity {
            anything else that might be open.
          - calling 'finish' in 'onCreate', and NOT calling 'setContentView'.
          */
-
-        //setContentView(R.layout.activity_main);
         this.toggleRotation();
         this.finish();
     }
@@ -33,6 +31,5 @@ public class MainActivity extends AppCompatActivity {
 
     void toggleRotation() {
         new RotationManager(this.getApplicationContext()).toggle();
-        //sendBroadcast(new Intent().setAction("com.github.exphp.rotationonoff.TOGGLE"));
     }
 }
